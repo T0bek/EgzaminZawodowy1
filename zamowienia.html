@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hurtownia</title>
     <link rel="stylesheet" href="styl4.css">
+   
 </head>
 <body>
     <section id="logo">
@@ -30,14 +31,16 @@
         </ol>
     </section>
     <section id="right">
-        Podaj numer kawy: <br>
-        <input type="number"> <br>
-        Podaj wagę w dekagramach: <br>
-        <input type="number2"> <br>
-        <button>Zamów</button> <br>
+        <label>Podaj numer kawy:</label><br>
+        <input type="number" id="number1"><br>
+        <label>Podaj wagę w dekagramach:</label><br>
+        <input type="number" id="number2"><br>
+        <button onclick="calculate()">Zamów</button>
+        <p id="wynik"></p>
     </section>
     <footer id="footer">
         Stronę przygotował: 04231507720
     </footer>
+    <script src="js.js"></script>
 </body>
 </html>
